@@ -64,8 +64,23 @@ div.case-study-images {
 
   float: left;
     width: 500px;
+    padding: 20px;
 }
 
 article.case-study {
     width: 100%;
+}
+
+ul.homepage-featured-work {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    list-style: none;
+
+}
+
+li.individual-featured-work {
+    padding: 20px;
+
+    
 }
